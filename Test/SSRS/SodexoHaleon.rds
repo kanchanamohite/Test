@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SodexoHaleon">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=GBREND01STT018\SQLSQSTT018;Initial Catalog=DW_SodexoHaleon</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>6fb1edb9-db99-40ec-88ec-de7f0cc2c032</DataSourceID>
+</RptDataSource>

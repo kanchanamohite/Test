@@ -5,21 +5,50 @@ VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRS", "SSRS\SSRS.rptproj", "{DCBE8C06-E487-4B40-8751-319EE6CBCB97}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS", "SSIS\SSIS.dtproj", "{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DW_SodexoHaleon", "DW_SodexoHaleon\DW_SodexoHaleon.sqlproj", "{70D98876-2E68-452D-96EF-11D58DCFAD9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Default = Debug|Default
-		DebugLocal|Default = DebugLocal|Default
-		Release|Default = Release|Default
+		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Debug|Default.ActiveCfg = Debug
-		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Debug|Default.Build.0 = Debug
-		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Debug|Default.Deploy.0 = Debug
-		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.DebugLocal|Default.ActiveCfg = DebugLocal
-		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.DebugLocal|Default.Build.0 = DebugLocal
-		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Release|Default.ActiveCfg = Release
-		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Release|Default.Build.0 = Release
-		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Release|Default.Deploy.0 = Release
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Debug|Any CPU.ActiveCfg = Debug
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Debug|Any CPU.Build.0 = Debug
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Debug|Any CPU.Deploy.0 = Debug
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.DebugLocal|Any CPU.Deploy.0 = DebugLocal
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Development|Any CPU.ActiveCfg = 
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Development|Any CPU.Build.0 = 
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Development|Any CPU.Deploy.0 = 
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Release|Any CPU.ActiveCfg = Release
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Release|Any CPU.Build.0 = Release
+		{DCBE8C06-E487-4B40-8751-319EE6CBCB97}.Release|Any CPU.Deploy.0 = Release
+		{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}.Debug|Any CPU.ActiveCfg = Development
+		{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}.Debug|Any CPU.Build.0 = Development
+		{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}.DebugLocal|Any CPU.ActiveCfg = Development
+		{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}.DebugLocal|Any CPU.Build.0 = Development
+		{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}.Development|Any CPU.ActiveCfg = Development
+		{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}.Development|Any CPU.Build.0 = Development
+		{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}.Release|Any CPU.ActiveCfg = Development
+		{037DC420-1D2A-4577-8B87-EBEBD4D82BEB}.Release|Any CPU.Build.0 = Development
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.DebugLocal|Any CPU.Deploy.0 = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D98876-2E68-452D-96EF-11D58DCFAD9C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

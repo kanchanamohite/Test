@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DW_SodexoHaleon"
+  DTS:DTSID="{C9C4D08C-7A20-4E5F-8092-26568ADA5BE7}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=GBREND01STT018\SQLSQSTT018;User ID=SSIS-Admin;Initial Catalog=DW_SodexoHaleon;Provider=SQLNCLI11.1;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZ+ve4a+ojEimr2BqR4EDyQAAAAACAAAAAAADZgAAwAAAABAAAACR+NXwZ9Vvp2L86Z8zLZlmAAAAAASAAACgAAAAEAAAABBVxBFewIjpz1Vj0VlltKF4AAAA8Ad6JzYr8Nej6a0OLnhSHjEgmqZn8bwTRRuvo3Q/6E3PJAUTomLO4gpTtB4tgJgM94BUnXm0/6MbaS+ZKwHFRvt+o/xchVFmze6v9vypcb+Yn20J0PSFIQqtqrmMpRHBSU4hBvR4R9GPXH0jcDG4CDi+q/BKo8hoFAAAACMlnZLuRBWc1GgiJ0LCqNdKLinq</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
